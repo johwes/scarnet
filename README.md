@@ -16,8 +16,8 @@ FRAG <id> <offset> <total> <len> — send one fragment of a multi-part message
 QUIT                             — end session
 ```
 
-Sessions start unauthenticated. All commands except `AUTH` and `STATS` require
-a prior successful `AUTH`.
+Sessions start unauthenticated. All commands except `AUTH` require a prior
+successful `AUTH`.
 
 ### Fragmented messages (FRAG)
 
